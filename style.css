@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(./img/screen1.jpg);
+    background-position: center;
+    background-repeat:cover;
+    background-size:cover;
+    height: 130vh; 
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    
+}
+
+.icon p{
+
+    color: rgba(238, 241, 19, 0.87);
+    font-size: -50px;
+    font-family: Arial;
+    float:inline-start;
+    padding-top: 10px;
+    padding-left: 85px;
+    width: 89px;
+    height: 30px;
+    text-align:end;
+    text-shadow:20px 30px 50px  rgba(255, 255, 255);
+    /* text-overflow: ellipsis; */
+    /* text-decoration: none; */
+    /* text-align: end; */
+}
+
+.logo{
+    color: rgba(171, 255, 46, 0.747);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.logo a{
+    color: rgba(238, 241, 19, 0.87);
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 66px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgba(171, 255, 46, 0.747);
+    font-family: Arial;
+    font-weight: bolder;
+    transition: text 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgba(238, 241, 19, 0.87);
+    text-shadow: 0 0 3px #ff0000a1, 0 0 5px #0000FF;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(171, 255, 46);
+    margin-top: 16px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgba(171, 255, 46, 0.747);
+    border: 2px solid rgb(171, 255, 46);
+    margin-top: 16px;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1280px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content p{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;  
+}
+
+.content h1{
+    font-family: Arial;
+    font-size: 55px;
+    padding-left: 20px;
+    margin-top: 8%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: rgb(171, 255, 46);
+    border: none;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: color .10s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.466);
+    transition: color .3s ease;
+}
+
+.cn:hover{
+    background-color: rgba(238, 241, 19, 0.87);
+    /* text-shadow: 5px 5px 20px rgba(255, 255, 255, 0.9) ; */
+    text-shadow: 0 0 3px #ff0000a1, 0 0 5px #0000FF;
+}
+
+.content span{
+    color: rgb(171, 255, 46);
+    font-size: 60px;
+    text-shadow: rgba(255, 255, 255, 0.5);
+}
+
+.form{
+    background: black;
+    width: 250px;
+    height: 525px;
+    background: linear-gradient(to top, rgba rgb(0, 0, 0, 0.8) 50%, rgba rgb(0, 0, 0, 0.8) 50%) ;
+    position:absolute ;
+    top: -20px;
+    left: 870px;
+    transform: translate(15px, 2%);
+    border-radius: 10px;
+    padding: 25px;
+    /* margin-top: 60px; */
+}
+
+.form h2{
+    width: 220px;
+    font-family: Arial;
+    text-align: center;
+    color: rgb(139, 24, 16) 0%;
+    font-size: 25px;
+    background-color: rgb(0, 0, 0);
+    background: transparent;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgba(171, 255, 46, 0.747);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Arial;
+}
+
+.form input:focus{
+    outline: none;
+   
+}
+
+::placeholder{
+    color:rgba(255, 255, 255, 0.514);
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: rgba(171, 255, 46, 0.747);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(171, 255, 46);
+    transition: color 0.4s ease;
+}
+
+.btnn:hover{
+    background: rgb(171, 255, 46);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.btnn a{
+    background: transparent;
+    text-decoration:wavy ;
+    color: rgb(0, 0, 0);
+    font-weight: 800px;
+}
+
+.form .link{
+    
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align:left;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: rgba(171, 255, 46, 0.747);
+}
+
+.liw{
+    font-family: Arial;
+    padding-top: 15px;
+    padding-right: 65px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.icons ion-icon{
+    color: rgb(105, 105, 105);
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: .3s ease;
+}
+
+.icons ion-icon:hover{
+    color: rgb(171, 255, 46);
+}
+
+@media screen and (max-width:1200px) {
+    /* Normal Screen */
+
+    .navbar{
+        width: 100%;
+        height: 100px;
+    }
+    
+    ul{
+        margin-left: 30px;
+    }
+    
+    ul li{
+        margin-left: 60px;
+    }
+    
+    ul li a{
+        font-size: 1.6vw;
+    }
+
+    .search{
+        margin-top: 3px;
+        margin-left: 290px;
+    }
+    
+    .srch{
+    height: 40px;
+    width: 190px;
+    font-size: 14px;
+    }
+
+    .btn{
+        height: 40px;
+        width: 80px;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .content h1, .content span{
+        font-size: 4.5vw;
+    }
+
+    .content .par{
+        width: 90%;
+        font-size: 1.5vw;
+    }
+
+    .content .cn{
+        width: 13%;
+        height: 3.5vw;
+        font-size: 1.8vw;
+    }
+
+    .content a{
+        font-size: 1.6vw;
+    }
+} 
+
+@media screen and (max-width:1170px) {
+    /*Login-box*/
+
+    .main{
+        padding-left: 20px;
+        height: 100vh;
+    }
+    .form{
+        background: black;
+        margin-top: 100px;
+        margin-left: -30px;
+        width: 250px;
+        height: 525px;
+        background: linear-gradient(to top, rgba rgb(0, 0, 0, 0.8) 50%, rgba rgb(0, 0, 0, 0.8) 50%) ;
+        position: absolute;
+        top: 420px;
+        left: 50px;
+        transform: translate(0%, -5%);
+        border-radius: 10px;
+        padding: 25px;
+    }
+
+    .form input{
+        width: 240px;
+        height: 35px;
+        background: transparent;
+        border-bottom: 1px solid rgba(171, 255, 46, 0.747);
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: Arial;
+    }
+
+    .btnn a{
+        font-size: 16px;
+    }
+    
+    .form .link a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:830px) {
+    /* Tablet */
+
+    .content{
+        margin-top: 120px;
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .content h1, .content span{
+        font-size: 6vw;
+    }
+
+    .content .par{
+        width: 90%;
+        font-size: 1.8vw;
+    }
+
+    .content .cn{
+        width: 15%;
+        height: 4.5vw;
+        font-size: 2vw;
+    }
+
+    .content a{
+        font-size: 2vw;
+    }
+
+    .logo{
+        margin-left: 240px;
+        width: 100%;
+        margin-top: 15px;
+        font-size: 5vw;
+    }
+
+    .info{
+        padding-left: auto;
+        margin-left: 410px;
+        margin-bottom; 300px;
+        margin-top: 23px;
+        font-size: 1.5vw;
+    }
+
+    .menu{
+        width: 100%;
+    }
+
+    ul{
+        margin-top: -5px;
+        margin-left: 5px;
+    }
+
+    ul li{
+        margin-left: 60px;   
+    }
+
+    ul li a{
+        font-size: 2vw;
+    }
+
+    .search{
+        margin-top: -20px;
+        margin-left: 60px;
+    }
+
+    .srch{
+        height: 30px;
+        width: 160px;
+        font-size: 12px;
+    }
+
+    .btn{
+        height: 30px;
+        width: 70px;
+    }
+
+    .main{
+        padding-left: 20px;
+        height: 100vh;
+    }
+    .form{
+        background: black;
+        margin-left: -20px;
+        width: 250px;
+        height: 525px;
+        background: linear-gradient(to top, rgba rgb(0, 0, 0, 0.8) 50%, rgba rgb(0, 0, 0, 0.8) 50%) ;
+        position: absolute;
+        top: 420px;
+        left: 50px;
+        transform: translate(0%, -5%);
+        border-radius: 10px;
+        padding: 25px;
+    }
+
+    .form input{
+        width: 240px;
+        height: 35px;
+        background: transparent;
+        border-bottom: 1px solid rgba(171, 255, 46, 0.747);
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: Arial;
+    }
+
+    .btnn a{
+        font-size: 16px;
+    }
+    
+    .form .link a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    /*Ipad old version */
+
+    .content{
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+
+    .search{
+        margin-top: -40px;
+        margin-left: 42px;
+    }
+
+    .logo{
+        margin-left: 180px;
+        font-size: 4vw;
+    }
+
+    ul{
+        margin-top: -25px;
+        margin-left: -5px;
+    }
+
+    ul li{
+        margin-left: 60px;
+    }
+
+    ul li a{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:450px) {
+    /* Mobile*/
+
+    .logo{
+        margin-left: 140px;
+        font-size: 4vw;
+    }
+
+    ul{
+        margin-top: -25px;
+    }
+
+    ul li{
+        margin-left: 42px;
+    }
+
+    ul li a{
+        font-size: 2vw;
+    }
+
+    .search{
+        margin-top: -40px;
+        margin-left: 38px;
+    }
+    
+}
+
